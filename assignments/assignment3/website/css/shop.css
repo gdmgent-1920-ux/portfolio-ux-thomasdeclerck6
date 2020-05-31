@@ -1,0 +1,93 @@
+h3 {
+    color: var(--yellow-color);
+    font-size:1.4em;
+    font-weight:700;
+}
+
+p {
+    font-size:1rem;
+    color: black;
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+    font-size: 28rem;
+}
+
+.center {
+  height:50vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kaartA {
+    height:18em;
+    width:14em;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    border-radius:16px;
+    overflow:hidden;
+    background-color: var(--blue-color);
+}
+
+.kaartB {
+    height:18em;
+    width:14em;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    border-radius:16px;
+    overflow:hidden;
+    background-color: var(--lila-color);
+}
+
+.kaartC {
+    height:18em;
+    width:14em;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    border-radius:16px;
+    overflow:hidden;
+    background-color: var(--pink-color);
+}
+
+.foto {
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+}
+
+img {
+    width: auto;
+    height: 250%;
+}
+  
+.beschrijving {
+    background-color: white;
+    height:6em;
+    width:14em;
+    position:absolute;
+    bottom:0em;
+    padding: 0.5em 1em;
+    text-align:center;
+}
+
+footer p {
+    margin: 0 1rem 1rem 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+.row {
+    align-self: center;
+    text-align: center;
+}

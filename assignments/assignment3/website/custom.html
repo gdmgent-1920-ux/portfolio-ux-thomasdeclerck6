@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/icon.png">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet" href="./css/custom.css">
+        <title>easyplants</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="home.html">easyplants</a></h1>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="verzorgen.html">Verzorgen</a></li>
+                                <li><a href="custom.html" class="selected">/ Custom made</a></li>
+                                <li><a href="about.html">Over ons</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="page">
+            <h2>/custom made</h2>
+        </div>
+        <div class="wrapper">
+            <p class="personal">
+                Heb je graag een plant in een speciale pot of met een kaartje aan? Daar kunnen we u bij helpen!
+            </p>
+            <form method="POST" action="">
+                <legend>Request a custom product</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+    
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+    
+                <label for="product">Product</label>
+                <input type="text" name="product" id="product">
+    
+                <label for="description">Description</label>
+                <input type="text" name="description" id="description" rows="2">
+
+                <input type="submit" name="send" id="send" value="Send">
+            </form>
+        </div>
+        
+        <footer>
+            <p>Made by Thomas Declerck</p>
+        </footer>
+    </body>
+</html>

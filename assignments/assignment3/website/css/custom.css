@@ -1,0 +1,107 @@
+h2 {
+    font-size: 20vw;
+}
+
+/* *********************************************** */
+/*  custom                                         */
+/* *********************************************** */
+
+.personal {
+    max-width: 600px;
+    padding: 2rem 2rem;
+    margin: 2rem auto;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.personal a {
+    color: var(--third-font-color);
+}
+
+
+/* *********************************************** */
+/*  form                                           */
+/* *********************************************** */
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-direction: column;
+    background-color: var(--pink-color);
+    border-radius: 25px;
+}
+
+legend {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: -1.2rem auto 0 auto;
+}
+
+label {
+    margin: 2rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--grey-font-color);
+    line-height: 1rem;
+    margin: 0 1.5rem;
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: start;
+}
+
+input:focus, input:hover {
+    border-bottom: 1px solid black;
+}
+
+input#send {
+    margin: 2rem 1.5rem;
+    border-bottom: none;
+    width: 3.4rem;
+}
+
+input#send:hover {
+    border-bottom: 1px solid black;
+}
+
+/* *********************************************** */
+/*  footer                                         */
+/* *********************************************** */
+
+footer {
+    bottom: 0;
+    left: 1%;
+    right: 1%;
+}
+
+/* *********************************************** */
+/*  Media Queries                                  */
+/* *********************************************** */
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 88%;
+        margin: 0 2rem;
+    }
+    legend {
+        font-size: 1.5rem;
+        margin: -1rem auto 0 auto;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: var(--bg-color);
+        background-color: var(--font-color);
+    }
+}
