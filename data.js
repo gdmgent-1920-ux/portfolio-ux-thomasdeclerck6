@@ -95,6 +95,12 @@ const data = {
                 "title": "Mijn website voor opdracht 3",
                 "href": "./assignments/assignment3/website/home.html",
                 "target": "_blank"
+            },
+            {
+                "text": "Adobe XD Prototype",
+                "title": "Mijn Adobe XD prototype (share link)",
+                "href": "https://xd.adobe.com/view/1cb837b9-861f-48ee-400d-cfd9116c6d89-6a89/",
+                "target": "_blank"
             }
         ]
     }
