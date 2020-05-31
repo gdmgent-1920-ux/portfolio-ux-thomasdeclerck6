@@ -19,7 +19,6 @@ const data = {
     /**
      * Assignment 1
      */
-
     "assignment1": {
         "buttons": [
             {
@@ -45,7 +44,6 @@ const data = {
     /**
      * Assignment 2
      */
-
     "assignment2": {
         "buttons": [
             {
@@ -71,7 +69,6 @@ const data = {
     /**
      * Assignment 3
      */
-
     "assignment3": {
         "buttons": [
             {
